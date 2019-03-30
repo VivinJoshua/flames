@@ -31,12 +31,7 @@ function findfortune() {
 
           a=a.replace(a[i],'*');
           b=b.replace(b[j],'*');
-        //  console.log("k value is ",k);
-          //console.log("l value is ",l);
-          //a[i]='*';
-          //b[j]='*';
-          //document.getElementById('pp').innerHTML=a;
-          //document.getElementById('ppp').innerHTML=b;
+
         }
     }
   }
@@ -47,27 +42,27 @@ function findfortune() {
 
   if(a[i]!='*' && a[i]!=' ')
     {
-    //  printf("chracter is %c\n",a[i]);
-    console.log("charcter value is ",a[i]);
-      //console.log("l value is ",l);
+
+  //  console.log("charcter value is ",a[i]);
+
       count_a++;
 
     }
   }
-  console.log("count  value of a is ",count_a);
+//  console.log("count  value of a is ",count_a);
   for(i=0;i<len_b;i++)
   {
   if(b[i]!='*' && b[i]!=' ')
       {
-    //    printf("charcter is %c\n",b[i]);
-    console.log("charcter value is ",b[i]);
+
+  //  console.log("charcter value is ",b[i]);
         count_b++;
       }
   }
-  console.log("count  value of b is ",count_b);
+//  console.log("count  value of b is ",count_b);
   count=count_a+count_b;
-  //printf("\ntotal  letters %d\n\n",count);
-  console.log("count  value is ",count);
+
+//  console.log("count  value is ",count);
 //claculaton
 i=0;
 n=count-1;
@@ -76,8 +71,7 @@ n=count-1;
      cnt=0;
   while(cnt<=n)
   {
-      //if(place==5)
-        //  place=0;
+
       if(ar[place]=='*')
         {
           place++;
@@ -92,8 +86,7 @@ n=count-1;
         if(cnt==n && ar[place]!='*' && place<=5)
           {
             ar=ar.replace(ar[place],"*");
-            //ar[place]='*';
-            //printf("place value is %d   %s\n",place+1,ar );
+
             place++;
             i++;
             cnt++;
@@ -107,7 +100,7 @@ n=count-1;
       }
 
   }
-    console.log("Final string  is  ",ar);
+  //  console.log("Final string  is  ",ar);
 for(i=0;i<=5;i++)
   {
     if(ar[i]!='*')
@@ -115,7 +108,7 @@ for(i=0;i<=5;i++)
         check=ar[i];
       }
   }
-  console.log("Final CHarcetr is  ",check);
+//  console.log("Final CHarcetr is  ",check);
   if(check=='F')
     {
 
