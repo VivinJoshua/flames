@@ -129,7 +129,7 @@ for(i=0;i<=5;i++)
       document.getElementById('print').innerHTML="Marriage";
     }
   else if(check=='E')
-      document.getElementById('print').innerHTML="Enimie";
+      document.getElementById('print').innerHTML="Enemy";
   else
     {
 
