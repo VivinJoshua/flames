@@ -66,6 +66,8 @@ function findfortune() {
 
     document.getElementById('print').innerHTML="SISTER";
   }
+  else
+  {
 //  console.log("count  value is ",count);
 //claculaton
 i=0;
@@ -139,5 +141,6 @@ for(i=0;i<=5;i++)
 
       document.getElementById('print').innerHTML="Sister";
     }
+  }
 
 };
