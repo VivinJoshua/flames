@@ -61,7 +61,11 @@ function findfortune() {
   }
 //  console.log("count  value of b is ",count_b);
   count=count_a+count_b;
+ if(count==0)
+    {
 
+    document.getElementById('print').innerHTML="SISTER";
+  }
 //  console.log("count  value is ",count);
 //claculaton
 i=0;
